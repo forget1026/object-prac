@@ -1,7 +1,6 @@
 package com.object.movie.pricing;
 
 import com.object.movie.Screening;
-import com.object.movie.pricing.DiscountCondition;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;

@@ -3,7 +3,6 @@ package com.object.movie;
 import com.object.money.Money;
 import com.object.movie.pricing.DiscountCondition;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
