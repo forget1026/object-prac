@@ -28,6 +28,10 @@ public class Movie {
         return fee.minus(discountPolicy.calculateDiscountAmount(screening));
     }
 
+    public void changeDiscountPolicy(DiscountPolicy discountPolicy) {
+        this.discountPolicy = discountPolicy;
+    }
+
     private static Movie avatar = new Movie("아바타",
             Duration.ofMinutes(120),
             Money.wons(10000),
